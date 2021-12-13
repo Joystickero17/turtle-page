@@ -1,0 +1,99 @@
+/* fuentes de google fonts*/
+
+/* Esquema de colores CSS */
+:root{
+    --blue: #0367A6;
+    --dark-blue: #03588C;
+    --regular-blue: #048ABF;
+    --ligth-blue: #59C1D9;
+    --white: #F2F2F2;
+    --light-green: #15d46e;
+
+}
+
+.html, body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-100{
+    font-weight: 100;
+}
+.font-200{
+    font-weight: 200;
+}
+.font-300{
+    font-weight: 300;
+}
+.font-400{
+    font-weight: 400;
+}
+
+footer{
+    background-color:var(--dark-blue);
+    border-top: 5px solid var(--light-green);
+}
+a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+h4.logo-title{
+    color: var(--light-green);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.banner-container{
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.nav{
+    position: absolute;
+    width: 100%;
+}
+.nav >div > a{
+    transition: all 1s;
+    transform: scale(1);
+}
+.nav >div > a:hover{
+    transition: all 1s;
+    transform: scale(1.2);
+    border-bottom: 1px solid var(--light-green);
+}
+
+.bg-dark-blue{
+    background-color: var(--dark-blue);
+}
+
+.logo{
+    height: 110px;
+}
+
+.banner{
+    width: 100%;
+
+}
+
+.wiki-list{
+    transition: all 0.5s;
+    font-weight: 200;
+    color: #03588C;
+    background-color: unset;
+    border: none;
+}
+
+.wiki-list:hover{
+    transition: all 0.5s;
+    background-color: #15d46e;
+    font-weight: 200;
+    color: white;
+}
+
+.wiki-list-container{
+    border-right: 1px solid #c5c5c5;
+}
